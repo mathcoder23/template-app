@@ -1,0 +1,74 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/tabBar/card/index",
+      "style": {
+        "navigationBarTitleText": "卡片",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/tabBar/review/index",
+      "style": {
+        "navigationBarTitleText": "复习"
+      }
+    },
+    {
+      "path": "pages/tabBar/me/me",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/review/Review",
+      "style": {
+        "navigationBarTitleText": "复习中"
+      }
+    },
+    {
+      "path": "pages/tabBar/analysis/Analysis",
+      "style": {
+        "navigationBarTitleText": "分析"
+      }
+    },
+    {
+      "path": "pages/login/PfLogin",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#00bbb5",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/card/index",
+        "iconPath": "static/img/tabs/card.png",
+        "selectedIconPath": "static/img/tabs/card-active.png",
+        "text": "卡片"
+      },
+      {
+        "pagePath": "pages/tabBar/analysis/Analysis",
+        "iconPath": "static/img/tabs/review.png",
+        "selectedIconPath": "static/img/tabs/review-active.png",
+        "text": "分析"
+      },
+      {
+        "pagePath": "pages/tabBar/me/me",
+        "iconPath": "static/img/tabs/me.png",
+        "selectedIconPath": "static/img/tabs/me-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
