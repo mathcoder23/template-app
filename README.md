@@ -1,4 +1,4 @@
-# fox-memory-app
+# my-project2
 
 ## Project setup
 ```

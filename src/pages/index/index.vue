@@ -1,18 +1,13 @@
 <template>
 	<view class="content">
-
+		<image class="logo" src="/static/logo.png"></image>
 		<view>
-			<button @click="updateCard">刷新卡片</button>
-		</view>
-		<view>
-
+			<text class="title">{{title}}</text>
 		</view>
 	</view>
 </template>
 
 <script>
-	import {CardApi} from "../../pfapi/api/CardApi";
-
 	export default {
 		data() {
 			return {
@@ -21,14 +16,9 @@
 		},
 		onLoad() {
 
-
 		},
 		methods: {
-			updateCard(){
-				CardApi.getList().then((rep)=>{
-					console.log(rep)
-				})
-			}
+
 		}
 	}
 </script>
